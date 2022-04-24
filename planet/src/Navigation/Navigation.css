@@ -1,0 +1,47 @@
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    height: auto;
+    width: 100%;
+    vertical-align: baseline;
+    padding-top: 2%;
+    padding-bottom: 2%;
+}
+
+.socialIcons {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.socialIcons > li {
+    list-style: none;
+    padding-left: 20%;
+}
+
+.socialIcons > li > img {
+    width: 25px;
+    cursor: pointer;
+}
+
+/*********************************************************/
+.socialTexts {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.socialTexts > li {
+    list-style: none;
+    padding-left: 20%;
+    font-size: calc(0.5rem + 0.5vw);
+    cursor: pointer;
+}
+
+.socialTexts > li:first-child {
+    color: #4D4A3C;
+}
