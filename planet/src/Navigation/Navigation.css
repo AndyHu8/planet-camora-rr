@@ -45,3 +45,12 @@
 .socialTexts > li:first-child {
     color: #4D4A3C;
 }
+
+.socialTexts > li:hover {
+    color: #4D4A3C;
+    transition: 0.3s linear;
+    -o-transition: 0.3s linear;
+    -ms-transition: 0.3s linear;
+    -moz-transition: 0.3s linear;
+    -webkit-transition: 0.3s linear;
+}
