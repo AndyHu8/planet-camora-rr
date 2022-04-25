@@ -1,10 +1,10 @@
 section {
-    padding: 8% 20%;
     background-color: #0a0a0a;
 }
 
 .startseiteContainer {
     display: flex;
+    padding: 8% 20%;
 }
 
 .boxLinks {
