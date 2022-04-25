@@ -1,0 +1,42 @@
+section {
+    padding: 8% 20%;
+    background-color: #0a0a0a;
+}
+
+.startseiteContainer {
+    display: flex;
+}
+
+.boxLinks {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    width: 50%;
+}
+
+.boxLinks > p {
+    line-height: 30px;
+    color: #999
+}
+
+.boxRechts > img {
+    height: 600px;
+}
+
+.button {
+    background-color: #0a0a0a;
+    height: 70px;
+    min-width: 169px;
+    text-align: center;
+    line-height: 70px;
+    border-radius: 35px;
+    border: 1px solid white;
+    color: white;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: white;
+    transition: all 0.7s ease;
+    color: #C1A473;
+}
