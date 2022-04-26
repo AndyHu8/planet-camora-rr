@@ -6,6 +6,7 @@ import openSea from "../PlanetCamoraBilder/opensea.png"
 
 export default function Navigation() {
     return (
+        <>
         <div className="container">
             <div>
                 <ul className="socialIcons">
@@ -17,11 +18,18 @@ export default function Navigation() {
             </div>
             <div>
                 <ul className="socialTexts">
-                    <li>Kaufen</li>
-                    <li onClick={() => window.location.reload()}>Startseite</li>
-                    <li>Vorteile</li>
+                    <li className="liText">Kaufen</li>
+                    <li className="liText" onClick={() => window.location.reload()}>Startseite</li>
+                    <li className="liText" >Vorteile</li>
+                    <i id="burger" class="fa fa-solid fa-bars"></i>
                 </ul>
             </div>
         </div>
+        <div className="NavMobile">
+            <div className="NavText first">Kaufen</div>
+            <div className="NavText">Startseite</div>
+            <div className="NavText">Vorteile</div>
+        </div>
+        </>
     )
 }

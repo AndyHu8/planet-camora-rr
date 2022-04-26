@@ -6,9 +6,8 @@
     text-align: center;
     height: auto;
     width: 100%;
-    vertical-align: baseline;
-    padding-top: 2%;
-    padding-bottom: 2%;
+    padding-top: 25px;
+    padding-bottom: 25px;
 }
 
 .socialIcons {
@@ -19,7 +18,7 @@
 
 .socialIcons > li {
     list-style: none;
-    padding-left: 20%;
+    padding-left: 30px;
 }
 
 .socialIcons > li > img {
@@ -37,7 +36,7 @@
 
 .socialTexts > li {
     list-style: none;
-    padding-left: 20%;
+    padding-right: 30px;
     font-size: calc(0.5rem + 0.5vw);
     cursor: pointer;
 }
@@ -53,4 +52,50 @@
     -ms-transition: 0.3s linear;
     -moz-transition: 0.3s linear;
     -webkit-transition: 0.3s linear;
+}
+
+#burger {
+    font-size: 30px;
+    padding-right: 30px;
+    cursor: pointer;
+    display: none;
+}
+
+.NavMobile {
+    height: auto;
+    width: 100%;
+    text-align: center;
+    font-size: 20px;
+    background-color: #191923;
+    color: white;
+}
+
+.NavText {
+    cursor: pointer;
+    padding: 10px;
+}
+
+.first {
+    color: #4D4A3C;
+}
+
+@media only screen and (max-width: 1300px) {
+    .socialTexts > li {
+        font-size: calc(0.8rem + 0.5vw);
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .container {
+        justify-content: space-between;
+    }
+    #burger {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+
+    .liText {
+        display: none;
+    }
 }

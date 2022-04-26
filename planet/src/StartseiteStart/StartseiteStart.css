@@ -4,7 +4,8 @@ section {
 
 .startseiteContainer {
     display: flex;
-    padding: 8% 20%;
+    padding: 8% 15%;
+    justify-content: space-evenly;
 }
 
 .boxLinks {
@@ -16,27 +17,65 @@ section {
 
 .boxLinks > p {
     line-height: 30px;
-    color: #999
+    color: #999;
+    margin-top: 2%;
+}
+
+.boxLinks > img {
+    min-width: 70%;
 }
 
 .boxRechts > img {
-    height: 600px;
+    width: auto;
+    height: auto;
+}
+
+.allButtons {
+    margin-top: 2%;
 }
 
 .button {
     background-color: #0a0a0a;
-    height: 70px;
-    min-width: 169px;
+    display: inline-block;
+    height: 60px;
+    min-width: 200px;
     text-align: center;
-    line-height: 70px;
+    line-height: 60px;
     border-radius: 35px;
     border: 1px solid white;
     color: white;
     cursor: pointer;
+    margin: 10px;
 }
 
 .button:hover {
     background-color: white;
     transition: all 0.7s ease;
     color: #C1A473;
+}
+
+@media only screen and (max-width: 1300px) {
+    .allButtons {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .startseiteContainer {
+        flex-direction: column-reverse;
+        align-items: center;
+        padding: 8% 0%;
+        width: auto;
+    }
+    .button {
+        font-size: 15px;
+    }
+    .boxLinks > p {
+        font-size: 15px;
+        text-align: center;
+    }
+    .boxRechts > img {
+        display: none;
+    }
 }
