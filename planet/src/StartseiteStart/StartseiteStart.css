@@ -26,12 +26,15 @@ section {
 }
 
 .boxRechts > img {
-    width: auto;
-    height: auto;
+    height: 100%;
+    max-width: auto;
 }
 
 .allButtons {
     margin-top: 2%;
+    display: flex;
+    align-items: center;
+    z-index: 2;
 }
 
 .button {
@@ -61,21 +64,32 @@ section {
     }
 }
 
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 1050px) {
     .startseiteContainer {
         flex-direction: column-reverse;
         align-items: center;
-        padding: 8% 0%;
-        width: auto;
+        padding: 2% 0%;
+        width: 100%;
     }
     .button {
         font-size: 15px;
     }
-    .boxLinks > p {
-        font-size: 15px;
+    .boxLinks {
         text-align: center;
     }
+    .boxLinks > img {
+        width: 80%;
+        margin: auto;
+    }
+    .boxLinks > p {
+        font-size: 15px;
+    }
     .boxRechts > img {
-        display: none;
+        width: 70%;
+        margin-top: auto;
+        padding: auto;
+    }
+    .boxRechts {
+        text-align: center;
     }
 }
