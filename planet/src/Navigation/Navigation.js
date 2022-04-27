@@ -25,7 +25,7 @@ export default function Navigation() {
                     <li><img src={twitter} alt="Twitter" onClick={() => window.open("https://twitter.com/PlanetCamora", "_blank")}/></li>
                     <li><img src={insta} alt="Instagram" onClick={() => window.open("https://www.instagram.com/planetcamoranft/", "_blank")}/></li>
                     <li><img src={discord} alt="Discord" onClick={() => window.open("https://discord.com/invite/planetcamora", "_blank")}/></li>
-                    <li><img src={openSea} alt="OpenSea"/></li>
+                    <li><img src={openSea} alt="OpenSea" onClick={() => window.open("https://opensea.io/collection/planet-camora", "_blank")}/></li>
                 </ul>
             </div>
             <div>

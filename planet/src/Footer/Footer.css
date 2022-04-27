@@ -1,0 +1,19 @@
+.footerWrapper {
+    width: 100%;
+    height: auto;
+    background-color: #0a0a0a;
+    color: white;
+    text-align: center;
+    line-height: 80px;
+    padding: 0% 10%;
+}
+
+.footerWrapper > p > span {
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px) {
+    .footerWrapper {
+        line-height: 50px;
+    }
+}

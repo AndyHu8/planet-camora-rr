@@ -13,7 +13,7 @@ export default function StartseiteStart() {
                     <div className="allButtons">
                         <div className="button" onClick={() => window.open("https://www.planet-camora.com/", "_blank")}>Offizielle Seite</div>
                         <div className="button">Was ist ein NFT?</div>
-                        <div className="button" onClick={() => window.open("https://hulongofficial.de/", "_blank")}>Creator</div>
+                        <div className="button" onClick={() => window.open("https://hulongofficial.de/", "_blank")}>Created by</div>
                     </div>
                 </div>
                 <div className="boxRechts">
