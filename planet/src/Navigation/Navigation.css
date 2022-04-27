@@ -1,5 +1,5 @@
 .container {
-    background-color: black;
+    background-color: #0a0a0a;
     color: white;
     display: flex;
     justify-content: space-around;
@@ -62,6 +62,8 @@
 }
 
 .navMobile {
+    position: absolute;
+    top: 80px;
     height: auto;
     width: 100%;
     text-align: center;

@@ -5,7 +5,7 @@ import "./StartseiteStart.css"
 
 export default function StartseiteStart() {
     return (
-        <section>
+        <section className="startseiteStart">
             <div className="startseiteContainer">
                 <div className="boxLinks">
                     <img src={PlanetCamoraSchrift} alt="Planet Camora"></img>

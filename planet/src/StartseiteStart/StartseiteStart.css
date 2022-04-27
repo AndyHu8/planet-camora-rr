@@ -1,5 +1,8 @@
-section {
-    background-color: #0a0a0a;
+.startseiteStart {
+    background: url("../PlanetCamoraBilder/planetWallpaper.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
 }
 
 .startseiteContainer {
@@ -59,26 +62,25 @@ section {
 
 @media only screen and (max-width: 1300px) {
     .allButtons {
-        display: flex;
-        flex-direction: column;
+        display: block;
     }
 }
 
 @media only screen and (max-width: 1050px) {
     .startseiteContainer {
-        flex-direction: column-reverse;
-        align-items: center;
-        padding: 2% 0%;
-        width: 100%;
+        display: block;
+        margin: auto;
+        padding: 10% 10%;
     }
     .button {
         font-size: 15px;
     }
     .boxLinks {
         text-align: center;
+        width: 100%;
     }
     .boxLinks > img {
-        width: 80%;
+        width: 60%;
         margin: auto;
     }
     .boxLinks > p {

@@ -7,12 +7,13 @@ import openSea from "../PlanetCamoraBilder/opensea.png"
 export default function Navigation() {
     const toggleNav = () => {
         let navSelector = document.querySelector('.navMobile');
+        console.log( navSelector.style.display);
 
-        if(navSelector.style.display == "none"){
-            navSelector.style.display = "block"
+        if(navSelector.style.display === "none" || navSelector.style.display === ""){
+            navSelector.style.display = "block";
         }
         else {
-            navSelector.style.display = "none"
+            navSelector.style.display = "none";
         }
     }
 
@@ -32,7 +33,7 @@ export default function Navigation() {
                     <li className="liText">Kaufen</li>
                     <li className="liText" onClick={() => window.location.reload()}>Startseite</li>
                     <li className="liText" >Vorteile</li>
-                    <i id="burger" class="fa fa-solid fa-bars" onClick={toggleNav}></i>
+                    <i id="burger" className="fa fa-solid fa-bars" onClick={toggleNav}></i>
                 </ul>
             </div>
         </div>
