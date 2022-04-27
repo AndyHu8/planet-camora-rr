@@ -41,7 +41,7 @@
 }
 
 .button {
-    background-color: #0a0a0a;
+    background-color: none;
     display: inline-block;
     height: 60px;
     min-width: 200px;
