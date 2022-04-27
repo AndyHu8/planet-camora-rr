@@ -20,7 +20,7 @@
 
 .boxLinks > p {
     line-height: 30px;
-    color: #999;
+    color: white;
     margin-top: 2%;
 }
 
@@ -85,7 +85,6 @@
     }
     .boxLinks > p {
         font-size: 15px;
-        color: white;
     }
     .boxRechts > img {
         width: 70%;
