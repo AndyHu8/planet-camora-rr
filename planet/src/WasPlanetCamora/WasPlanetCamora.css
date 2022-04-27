@@ -7,7 +7,7 @@
 
 .WasPlanetCamoraWrapper {
     margin: auto;
-    max-width: 80%;
+    width: 80%;
     padding: 10%;
     height: auto;
     display: flex;
@@ -21,6 +21,7 @@
 
 .WasPlanetSecondBox > p {
     padding-top: 5%;
+    color: #999;
 }
 
 .WasPlanetSecondBox > h2 > span {
@@ -30,3 +31,34 @@
 .WasPlanetSecondBox > div {
     margin-top: 5%;
 }
+
+@media only screen and (max-width: 1300px) {
+    .WasPlanetCamoraWrapper {
+        width: 80%;
+        padding: 10% 2%;
+    }
+}
+
+@media only screen and (max-width: 1060px) {
+    .WasPlanetCamoraWrapper {
+        display: block;
+        text-align: center;
+    }
+    .WasPlanetSecondBox {
+        padding-top: 5%;
+        padding-left: 0%;
+    }
+}
+
+@media only screen and (max-width: 900px) {
+    .WasPlanetSecondBox {
+        padding-top: 5%;
+        padding-left: 0%;
+    }
+    .WasPlanetFirstBox > img{
+        width: 80%;
+    }
+}
+
+
+

@@ -5,7 +5,7 @@ export default function WasPlanetCamora() {
     return (
         <section className="WasPlanetCamora">
             <div className="WasPlanetCamoraWrapper">
-                <div>
+                <div className="WasPlanetFirstBox">
                     <img src={img} alt="Planet Camora"></img>
                 </div>
                 <div className="WasPlanetSecondBox">
