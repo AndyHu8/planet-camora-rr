@@ -100,4 +100,10 @@
     .boxRechts > img {
         display: none;
     }
+    .boxLinks > p {
+        margin-top: 5%;
+    }
+    .allButtons {
+        margin-top: 5%;
+    }
 }
