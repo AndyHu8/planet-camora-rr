@@ -1,0 +1,41 @@
+.WasNftSection {
+    color: #999;
+    background: linear-gradient(#0a0a0a, black);
+}
+
+.WasNftSection > div {
+    width: 90%;
+    margin: auto;
+    padding: 8% 25%;
+    line-height: 40px;
+}
+
+.WasNftSection > div > h2 {
+    padding-left: 5%;
+    border-left: 1px solid #A5916D;
+    color: white;
+}
+
+.WasNftSection > div > p {
+    padding-top: 3%;
+    padding-left: 5%;
+    border-left: 1px solid #A5916D;
+}
+
+.WasNftSection > div > h2 > span {
+    color: #A5916D;
+}
+
+@media only screen and (max-width: 1060px) {
+    .WasNftSection > div {
+        padding: 10% 15%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .WasNftSection > div {
+        padding: 10% 2%;
+        line-height: 30px;
+    }
+    
+}
