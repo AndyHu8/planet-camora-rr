@@ -7,7 +7,6 @@ import openSea from "../PlanetCamoraBilder/opensea.png"
 export default function Navigation() {
     const toggleNav = () => {
         let navSelector = document.querySelector('.navMobile');
-        console.log( navSelector.style.display);
 
         if(navSelector.style.display === "none" || navSelector.style.display === ""){
             navSelector.style.display = "block";

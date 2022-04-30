@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import Faq from './Faq/Faq';
 import Footer from './Footer/Footer';
 import './index.css';
 import Navigation from './Navigation/Navigation';
@@ -14,6 +15,7 @@ root.render(
     <StartseiteStart/>
     <WasPlanetCamora/>
     <WasNft/>
+    <Faq/>
     <Footer/>
   </React.StrictMode>
 );

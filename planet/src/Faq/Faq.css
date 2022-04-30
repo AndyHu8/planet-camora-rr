@@ -1,0 +1,50 @@
+.faqWrapper {
+    width: 100%;
+    height: auto;
+    padding: 5% 0%;
+    color: white;
+    background-color: #0A0A0A;
+}
+
+.FaqDiv {
+    width: 70%;
+    padding: 0.5% 5%;
+    background-color: #0A0A0A;
+    margin: auto;
+}
+
+.FaqQuestion {
+    background-color: #202020;
+    padding: 2% 3%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.FaqQuestion > i {
+    cursor: pointer;
+    font-size: 30px;
+}
+
+.EinsQuestion, .ZweiQuestion, .DreiQuestion, .VierQuestion, .FuenfQuestion, .SechsQuestion {
+    border-radius: 70px;
+}
+
+@media only screen and (max-width: 900px) {
+    .FaqQuestion > i {
+        font-size: 20px;
+    }
+    .FaqDiv {
+        padding: 0.5% 0%;
+    }
+}
+
+@media only screen and (max-width: 500px) {
+    .FaqDiv {
+        width: 90%;
+    }
+    .FaqQuestion {
+        padding: 4% 4%;
+
+    }
+}
