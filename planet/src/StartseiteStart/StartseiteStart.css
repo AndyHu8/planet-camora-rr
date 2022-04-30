@@ -54,7 +54,18 @@
     margin: 10px;
 }
 
+.button > a {
+    color: white;
+    text-decoration: none;
+}
+
 .button:hover {
+    background-color: white;
+    transition: all 0.7s ease;
+    color: #C1A473;
+}
+
+.button a:hover {
     background-color: white;
     transition: all 0.7s ease;
     color: #C1A473;
