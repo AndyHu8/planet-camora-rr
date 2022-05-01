@@ -13,7 +13,7 @@ export default function EineKate(props) {
                     <div>Kollektion</div>
                     <div>{props.anzahl}</div>
                 </div>
-                <p>Diese 5 one-of-a-kind Planet NFTs garantieren dir lebenslangen VIP Zugang inklusive Backstage Pass, zu jedem RAF Camora Konzert. Dich und deine Freunde erwarten mit diesem legendären NFT eine Menge VIP Specials.</p>
+                <p>{props.text}</p>
                 <div>Mehr Infos</div>
             </div>
         </div>
