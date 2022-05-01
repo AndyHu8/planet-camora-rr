@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import Faq from './Faq/Faq';
 import Footer from './Footer/Footer';
 import './index.css';
+import Kategorien from './Kategorien/Kategorien';
 import Navigation from './Navigation/Navigation';
 import StartseiteStart from './StartseiteStart/StartseiteStart';
 import WasNft from './WasNft/WasNft';
@@ -14,6 +15,7 @@ root.render(
     <Navigation/>
     <StartseiteStart/>
     <WasPlanetCamora/>
+    <Kategorien/>
     <WasNft/>
     <Faq/>
     <Footer/>
