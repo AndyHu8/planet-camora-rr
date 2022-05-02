@@ -14,7 +14,7 @@ export default function EineKate(props) {
                     <div>{props.anzahl}</div>
                 </div>
                 <p>{props.text}</p>
-                <div className="eineKarteButton">Mehr Infos</div>
+                <div className="eineKarteButtonDiv">Mehr Infos</div>
             </div>
         </div>
     )

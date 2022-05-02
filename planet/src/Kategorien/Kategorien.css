@@ -6,3 +6,9 @@
     gap: 20px;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 700px) {
+    .KateContainer {
+        padding: 10% 20%;
+    }
+}

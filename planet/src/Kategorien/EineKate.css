@@ -12,6 +12,8 @@
     max-width: 400px;
     flex: 1;
     color: #999;
+    position: relative;
+    margin: 5% 0%;
 }
 
 .EineKateContainer > img {
@@ -39,10 +41,42 @@
     font-size: 20px;
 }
 
-.contentContainer > p {
-    padding-top: 8%;
+.contentContainer {
+    display: flex;
+    flex-direction: column;
 }
 
-.eineKarteButton {
-    
+.contentContainer > p {
+    padding-top: 8%;
+    height: 300px;
+}
+
+.eineKarteButtonDiv {
+    align-self: center;
+    background-color: none;
+    display: inline-block;
+    height: 60px;
+    min-width: 200px;
+    text-align: center;
+    line-height: 60px;
+    border-radius: 35px;
+    color: white;
+    cursor: pointer;
+    margin-bottom: -50px;
+    background-color: #C1A473;
+}
+
+.eineKarteButtonDiv:hover {
+    background-color: #0A0A0A;
+    transition: all 0.7s ease;
+    color: #C1A473;
+}
+
+@media only screen and (max-width: 700px) {
+    .contentContainer > p {
+        height: 250px;
+    }
+    .eineKarteButtonDiv {
+        margin-bottom: -30px;
+    }
 }
