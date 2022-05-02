@@ -7,14 +7,14 @@ export default function EineKate(props) {
             <div className="contentContainer">
                 <div className="titel">
                     <div>{props.kollektion}</div>
-                    <div>Anzahl</div>
+                    <div>Anzahl:</div>
                 </div>
                 <div className="kollektion">
                     <div>Kollektion</div>
                     <div>{props.anzahl}</div>
                 </div>
                 <p>{props.text}</p>
-                <div>Mehr Infos</div>
+                <div className="eineKarteButton">Mehr Infos</div>
             </div>
         </div>
     )
