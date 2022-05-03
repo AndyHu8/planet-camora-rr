@@ -41,11 +41,16 @@
     cursor: pointer;
 }
 
+.liLinks {
+    color: white;
+    text-decoration: none;
+}
+
 .socialTexts > li:first-child {
     color: #4D4A3C;
 }
 
-.socialTexts > li:hover {
+.liLinks:hover {
     color: #4D4A3C;
     transition: 0.3s linear;
     -o-transition: 0.3s linear;

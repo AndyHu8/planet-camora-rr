@@ -3,6 +3,8 @@ import twitter from "../PlanetCamoraBilder/twitter.png"
 import insta from "../PlanetCamoraBilder/insta.png"
 import discord from "../PlanetCamoraBilder/dc.png"
 import openSea from "../PlanetCamoraBilder/opensea.png"
+import { Link } from "react-router-dom";
+import Startseite from "../Startseite"
 
 export default function Navigation() {
 
@@ -31,16 +33,16 @@ export default function Navigation() {
             <div>
                 <ul className="socialTexts">
                     <li className="liText">Kaufen</li>
-                    <li className="liText" onClick={() => window.location.reload()}>Startseite</li>
-                    <li className="liText" >Vorteile</li>
+                    <li className="liText"><Link to="/" className="liLinks">Startseite</Link></li>
+                    <li className="liText"><Link to="/Vorteile" className="liLinks">Vorteile</Link></li>
                     <i id="burger" className="fa fa-solid fa-bars" onClick={toggleNav}></i>
                 </ul>
             </div>
         </div>
         <div className="navMobile">
             <div className="navText first">Kaufen</div>
-            <div className="navText" onClick={() => window.location.reload()}>Startseite</div>
-            <div className="navText">Vorteile</div>
+            <div className="navText"><Link to="/" className="liLinks">Startseite</Link></div>
+            <div className="navText"><Link to="/Vorteile" className="liLinks">Vorteile</Link></div>
         </div>
         </>
     )
