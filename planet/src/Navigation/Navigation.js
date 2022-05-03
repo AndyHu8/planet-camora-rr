@@ -5,6 +5,7 @@ import discord from "../PlanetCamoraBilder/dc.png"
 import openSea from "../PlanetCamoraBilder/opensea.png"
 
 export default function Navigation() {
+
     const toggleNav = () => {
         let navSelector = document.querySelector('.navMobile');
 
