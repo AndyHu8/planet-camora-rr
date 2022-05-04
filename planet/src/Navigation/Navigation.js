@@ -4,7 +4,6 @@ import insta from "../PlanetCamoraBilder/insta.png"
 import discord from "../PlanetCamoraBilder/dc.png"
 import openSea from "../PlanetCamoraBilder/opensea.png"
 import { Link } from "react-router-dom";
-import Startseite from "../Startseite"
 
 export default function Navigation() {
 
