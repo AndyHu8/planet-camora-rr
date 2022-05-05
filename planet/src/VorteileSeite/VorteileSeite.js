@@ -5,6 +5,7 @@ import Navigation from "../Navigation/Navigation";
 import PlanetCamoraVorteile from './PlanetCamoraVorteile/PlanetCamoraVorteile';
 import { useEffect } from "react"
 import VorteileLegendNftZwei from './VorteileLegendNftZwei/VorteileLegendNftZwei';
+import VorteileSeltenNft from './VorteileSeltenNft/VorteileSeltenNft';
 
 export default function VorteileSeite(){
     useEffect(() => {
