@@ -28,3 +28,12 @@
     gap: 25px;
     flex-wrap: wrap;
 }
+
+@media only screen and (max-width: 700px) {
+    .VorteileSeltenNftContent > p {
+        margin: 10% 0%;
+    }
+    .VorteileSeltenNftContent {
+        padding: 10% 0%;
+    }
+}
