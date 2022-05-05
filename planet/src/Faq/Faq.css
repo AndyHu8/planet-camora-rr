@@ -37,14 +37,15 @@
     .FaqDiv {
         padding: 0.5% 0%;
     }
+    .FaqQuestion {
+        padding: 5% 8%;
+
+    }
 }
 
 @media only screen and (max-width: 500px) {
     .FaqDiv {
         width: 90%;
-    }
-    .FaqQuestion {
-        padding: 4% 4%;
-
+        padding: 1% 5%;
     }
 }

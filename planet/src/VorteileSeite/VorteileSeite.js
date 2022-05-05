@@ -4,6 +4,7 @@ import Footer from "../Footer/Footer";
 import Navigation from "../Navigation/Navigation";
 import PlanetCamoraVorteile from './PlanetCamoraVorteile/PlanetCamoraVorteile';
 import { useEffect } from "react"
+import VorteileLegendNftZwei from './VorteileLegendNftZwei/VorteileLegendNftZwei';
 
 export default function VorteileSeite(){
     useEffect(() => {
@@ -14,6 +15,7 @@ export default function VorteileSeite(){
         <>
         <Navigation/>
         <PlanetCamoraVorteile/>
+        <VorteileLegendNftZwei/>
         <Faq/>
         <Footer/>
         </>

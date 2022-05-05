@@ -1,0 +1,38 @@
+.VorteileLegendNftZweiContainer {
+    padding: 10%;
+    background: linear-gradient(#0a0a0a, black);
+}
+
+.VorteileLegendNftZweiContent {
+    width: 70%;
+    margin: auto;
+    text-align: center;
+    border-left: 1px solid #A5916D;
+    border-right: 1px solid #A5916D;
+    padding: 0% 5%;
+}
+
+.VorteileLegendNftZweiContent > h3 {
+    color: white;
+}
+
+.VorteileLegendNftZweiContent > p:not(:first-of-type) {
+    margin-top: 5%;
+}
+
+.VorteileLegendNftZweiContent > p {
+    color: #999;
+}
+
+@media only screen and (max-width: 1300px) {
+    .VorteileLegendNftZweiContent {
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 700px) {
+    .VorteileLegendNftZweiContent {
+        border-left: none;
+        border-right: none;
+    }
+}
