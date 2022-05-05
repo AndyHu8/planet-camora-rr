@@ -16,6 +16,7 @@ export default function VorteileSeite(){
         <>
         <Navigation/>
         <PlanetCamoraVorteile/>
+        <VorteileSeltenNft/>
         <VorteileLegendNftZwei/>
         <Faq/>
         <Footer/>

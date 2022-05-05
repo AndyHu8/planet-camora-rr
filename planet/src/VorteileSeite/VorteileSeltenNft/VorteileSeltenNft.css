@@ -1,0 +1,30 @@
+.VorteileSeltenNftContainer {
+    text-align: center;
+    width: 100%;
+    background-color: black;
+    color: #999;
+
+}
+
+.VorteileSeltenNftContent {
+    padding: 10%;
+    width: 80%;
+    margin: auto;
+}
+
+.VorteileSeltenNftContent > h2 {
+    color: white;
+}
+
+.VorteileSeltenNftContent > p {
+    margin: 2% 0% 5% 0%;
+}
+
+
+.VorteileSeltenNftContent > div {
+    display: flex;
+    justify-content: center;
+    background-color: black;
+    gap: 25px;
+    flex-wrap: wrap;
+}
