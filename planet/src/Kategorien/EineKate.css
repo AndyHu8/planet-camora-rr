@@ -13,7 +13,6 @@
     flex: 1;
     color: #999;
     position: relative;
-    margin: 5% 0%;
 }
 
 .EineKateContainer > img {
@@ -73,6 +72,11 @@
     color: #C1A473;
 }
 
+@media only screen and (max-width: 1600px) {
+    .EineKateContainer {
+        margin: 5% 0%;
+    }
+}
 @media only screen and (max-width: 1500px) {
     .contentContainer > p {
         height: 250px;

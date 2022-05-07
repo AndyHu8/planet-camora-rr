@@ -2,7 +2,7 @@
     display: flex;
     justify-content: center;
     background-color: black;
-    padding: 5% 20%;
+    padding: 8% 20%;
     gap: 20px;
     flex-wrap: wrap;
 }
