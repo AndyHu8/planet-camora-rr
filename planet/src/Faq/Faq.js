@@ -92,7 +92,7 @@ export default function Faq() {
 
 
     return (
-        <section className="faqWrapper">
+        <section className="faqWrapper" id="Faq">
             <div className="FaqDiv">
                 <div className="FaqQuestion EinsQuestion">
                     <p>Wie kann ich ein Planet Camora NFT erwerben?</p>

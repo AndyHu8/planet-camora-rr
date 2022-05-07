@@ -1,26 +1,31 @@
-.VorteileSeltenNftContainer {
+.VorteileOGNftContent > p > a {
+    color: #A5916D;
+    text-decoration: none;
+}
+
+.VorteileOGNftContainer {
     text-align: center;
     width: 100%;
     background-color: black;
     color: #999;
 }
 
-.VorteileSeltenNftContent {
+.VorteileOGNftContent {
     padding: 8% 10%;
     width: 80%;
     margin: auto;
 }
 
-.VorteileSeltenNftContent > h2 {
+.VorteileOGNftContent > h2 {
     color: white;
 }
 
-.VorteileSeltenNftContent > p {
+.VorteileOGNftContent > p {
     margin: 2% 0% 5% 0%;
 }
 
 
-.VorteileSeltenNftContent > div {
+.VorteileOGNftContent > div {
     display: flex;
     justify-content: center;
     background-color: black;
@@ -29,10 +34,10 @@
 }
 
 @media only screen and (max-width: 700px) {
-    .VorteileSeltenNftContent > p {
+    .VorteileOGNftContent > p {
         margin: 10% 0%;
     }
-    .VorteileSeltenNftContent {
+    .VorteileOGNftContent {
         padding: 10% 0%;
     }
 }
