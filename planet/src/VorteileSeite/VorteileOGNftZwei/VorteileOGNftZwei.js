@@ -7,7 +7,7 @@ export default function VorteileOGNftZwei() {
     return (
         <div className="VorteileOGNftZweiContainer">
             <div className="VorteileOGNftZweiContent">
-            <EinVorteileSelten img={Discord} titel="Exklusiver Content" subTitel="Musik und Videoplayer" text="Durch den Besitz deines NFTs hast du Zugriff auf einen internen Musik und Video Bereich dieser Webseite, um dir neue Songs und exklusiven Content anzusehen."/>
+            <EinVorteileSelten img={Discord} titel="Discord / Whitetlist" subTitel="VIP Status" text="Erhalte VIP Status in unserem Discord- Server mit RAF Camora und schalte weitere Channels frei in welchen dir versicherte Whitelist Spots neuer NFT Partner Projekte zustehen."/>
             <div className="VorteileOGNftBlueBanner">
                 <img src={Bluebanner}/>
                 <div className="OhneBlueBanner">
@@ -18,8 +18,6 @@ export default function VorteileOGNftZwei() {
                         <li>Lifetime VIP Tickets</li>
                         <li>Ein Besuch im Anthra Studio Berlin</li>
                         <li>Ein Tattoo im R.</li>
-                    </ul>
-                    <ul>
                         <li>Backstage Tickets mit Meet and Greet</li>
                         <li>Orginal Outfits aus Musikvideos</li>
                         <li>Eine Ferrari Fahrt mit RAF in Wien oder Berlin</li>
