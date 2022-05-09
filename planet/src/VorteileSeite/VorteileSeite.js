@@ -7,6 +7,7 @@ import { useEffect } from "react"
 import VorteileLegendNftZwei from './VorteileLegendNftZwei/VorteileLegendNftZwei';
 import VorteileSeltenNft from './VorteileSeltenNft/VorteileSeltenNft';
 import VorteileOGNftEins from './VorteileOGNftEins/VorteileOGNftEins';
+import VorteileOGNftZwei from './VorteileOGNftZwei/VorteileOGNftZwei';
 
 export default function VorteileSeite(){
     useEffect(() => {
@@ -18,6 +19,7 @@ export default function VorteileSeite(){
         <Navigation/>
         <PlanetCamoraVorteile/>
         <VorteileOGNftEins/>
+        <VorteileOGNftZwei/>
         <VorteileSeltenNft/>
         <VorteileLegendNftZwei/>
         <Faq/>
