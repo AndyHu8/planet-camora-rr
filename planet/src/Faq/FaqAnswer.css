@@ -1,9 +1,15 @@
+@keyframes slide-in-answer {
+    from {transform: translateY(-40%); opacity: 0;}
+    to {transform: translateY(0%); opacity: 1;}
+  }
+
 .FaqAnswer {
     background-color: #202020;
     border-radius: 0px 0px 40px 40px;
     padding: 3%;
     padding-top: 0%;
     display: block;
+    animation: slide-in-answer 400ms;
 }
 
 @media only screen and (max-width: 900px) {
