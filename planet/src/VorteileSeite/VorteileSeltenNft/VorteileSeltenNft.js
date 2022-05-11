@@ -15,7 +15,7 @@ export default function VorteileSeltenNft() {
                 <div>
                     <EinVorteileSelten img={Songnotizen} titel="Originale Songnotizen" subTitel="von RAF Camora" text="50 verschiedene Exemplare der originalen Songnotizen von RAF Camoras Alben. Handgeschrieben, eingerahmt und kein zweites Mal verfügbar."/>
                     <EinVorteileSelten img={Merch} titel="Limitierter Merch" subTitel="Nur 300 Stück verfügbar" text="Einzigartiger limitierter Merch. Dieser Merch steht der Öffentlichkeit zu keinem Zeitpunkt zum Verkauf zur Verfügung."/>
-                    <EinVorteileSelten img={OGVorteile} titel="Alle OG Vorteile" subTitel="Exklusive Einblicke" text="Als Holder eines seltenen NFTs hast du zusätzlich natürlich auch alle Vorteile eines OG NFTs,"/>
+                    <EinVorteileSelten img={OGVorteile} titel="Alle OG Vorteile" subTitel="Exklusive Einblicke" text="Als Holder eines seltenen NFTs hast du zusätzlich natürlich auch alle Vorteile eines OG NFTs."/>
                 </div>
             </div>
         </div>

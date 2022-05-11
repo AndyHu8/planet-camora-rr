@@ -8,6 +8,7 @@ import VorteileLegendNftZwei from './VorteileLegendNftZwei/VorteileLegendNftZwei
 import VorteileSeltenNft from './VorteileSeltenNft/VorteileSeltenNft';
 import VorteileOGNftEins from './VorteileOGNftEins/VorteileOGNftEins';
 import VorteileOGNftZwei from './VorteileOGNftZwei/VorteileOGNftZwei';
+import VorteileLegendNftEins from './VorteileLegendNftEins/VorteileLegendNftEins';
 
 export default function VorteileSeite(){
     useEffect(() => {
@@ -21,6 +22,7 @@ export default function VorteileSeite(){
         <VorteileOGNftEins/>
         <VorteileOGNftZwei/>
         <VorteileSeltenNft/>
+        <VorteileLegendNftEins/>
         <VorteileLegendNftZwei/>
         <Faq/>
         <Footer/>
