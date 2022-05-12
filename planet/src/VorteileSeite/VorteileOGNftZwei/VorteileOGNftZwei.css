@@ -22,7 +22,7 @@
     flex: 1;
     color: #999;
     text-align: left;
-    overflow-y: scroll;
+    overflow-y: auto;
 }
 
 .VorteileOGNftBlueBanner > img {
